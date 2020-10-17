@@ -22,38 +22,6 @@ public class Ejercicio9 {
 
         escribirBinario(libros,titulos,anyoPublicacion);
         leerBinario(libros);
-//
-//        try {
-//            OutputStreamWriter escritura = new OutputStreamWriter(new FileOutputStream(libros));
-//            for(int i=0; i < titulos.length;i++){
-//                escritura.write(titulos[i]);
-//                escritura.write(anyoPublicacion[i]);
-//                System.out.println("Escrito el "+i+" libro");
-//            }
-//            escritura.close();
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        System.out.println("----------------------------------------------");
-//        System.out.println("Pasamos a la lectura del archivo recien creado");
-//
-//        try{
-//            FileReader lector = new FileReader(libros);
-//            BufferedReader bufferLector = new BufferedReader(lector);
-//
-//            String linea = "";
-//            while((linea=bufferLector.readLine()) != null){
-//                System.out.println(linea);
-//            }
-//            bufferLector.close();
-//            lector.close();
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
     }
 
     private static void leerBinario(File libros) {
